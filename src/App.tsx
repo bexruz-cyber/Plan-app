@@ -82,7 +82,7 @@ const App = () => {
     try {
       for (const data of dataList) {
         await fetch(
-          "https://script.google.com/macros/s/AKfycbwCFkgjvA9CcZKAleFzTKh3-YALLdiOx7qlkF1Clx4DAyFqNhehO_cTBoatZzbka68u/exec",
+          "https://script.google.com/macros/s/AKfycbxxYiJ6oUKTCzPz7RwDRMi6CqQjAX_yVdVhtuP2kjmG1ZS0TSiNI4ZMKpU3-qQXmT_b/exec",
           {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
